@@ -24,3 +24,25 @@ li a:hover {
     background-color: rgb(252, 249, 249);
     color: rgb(0,0,0);
 }
+
+* {
+    box-sizing: border-box;
+}
+
+.col {
+    float: left;
+    padding: 20px;
+    width: 33.33%;
+}
+
+.r ::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.r2 ::after {
+    content: "";
+    clear: both;
+    display: table;
+}
